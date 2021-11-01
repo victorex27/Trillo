@@ -13,7 +13,7 @@
     height: 7rem;
     background-color: #fff;
     font-size: 1.4rem;
-    border: var(--color-grey-light-2);
+    border-bottom: var(--line);
 }
 
 .content {
@@ -34,7 +34,31 @@
     flex: 1;
     background-color: #fff;
 
-    // to be removed
-    height: 88rem;
-    background-color: orangered;
+}
+
+
+.detail{
+
+    font-size: 1.4rem;
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
+
+.description{
+   
+    flex: 0 0 60%;
+    background-color: #fff;
+    margin-right:4.5rem;
+    box-shadow: var(--shadow-light);
+    padding:3rem;
+}
+
+
+.user-reviews{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
